@@ -1,0 +1,30 @@
+{
+  "name": "The Point Between",
+  "image": "https://api.imd.fun/artifacts/b23bbdfda8add1380dc4173cba58303c467058ec3c9d051fe8fd199f67e77975",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 35
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Interpolation Flint"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A chalk pebble between charcoal stones finds an exact place along an ochre cord."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Exact dimensional calculation checks"
+    }
+  ]
+}

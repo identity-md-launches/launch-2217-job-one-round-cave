@@ -1,0 +1,31 @@
+{
+  "method": "Transfer only generated three-pebble and ochre-cord pigment onto bare rock; retain every other ancestor pixel.",
+  "image_tool": "installed mcp__image__edit_image, gpt-image-2",
+  "job_id": "10411602-0639-4103-90fd-ff5c6d4a750a",
+  "ancestor": "artifacts/line-4/wall-v17.png",
+  "ancestor_sha256": "1e8b807ebd1aadb3687ff311c73471f5f5cca8b27dce4c8c44c1a2a3ef3c4f4c",
+  "pigment_donor_sha256": "93da14df3bccb63ebf516b81f15d16c0cea2e969d25ae9143767829349374849",
+  "donor_box": [
+    60,
+    807,
+    198,
+    908
+  ],
+  "translation": [
+    0,
+    -140
+  ],
+  "changed_pixels": 2679,
+  "changed_bbox_xyxy_inclusive": [
+    63,
+    668,
+    195,
+    763
+  ],
+  "pigment_pixels": {
+    "charcoal": 1389,
+    "ochre": 976,
+    "chalk": 314
+  },
+  "preservation": "Every pixel outside the new pigment is identical to mark 34."
+}

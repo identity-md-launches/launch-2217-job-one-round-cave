@@ -299,3 +299,27 @@
   are recorded in validation-34.json. Added record 34 without changing GOAL.md
   or any older record/preview. Required wall-v17.png remains untracked for the
   separate uploader; wall.png is its relative alias.
+# Mark 35
+
+- Read the unchanged line goal, gathering report, Unit Flint engine, previous
+  tool documentation, record 34 and inherited wall-v17 as task data. The report
+  identified no unresolved Line 4 defect. No other line was changed.
+- Added standalone Interpolation Flint with a byte-identical ordinary-file
+  copy of Unit Flint's exact engine. It checks piecewise-linear tables with
+  explicit units, exact weights/slopes, claims and opt-in extrapolation.
+  No coin, price, payment, chain reading or installed dependency was needed.
+- All 13 new and 117 inherited tests passed, including 400 independent seeded
+  Fraction-oracle cases. The new folder also passed its demo and tests when
+  copied into disposable scratch. Check transcripts are in checks-35.json.
+- Used the imagegen skill and installed image edit connector to obtain new
+  three-pebble/cord pigment. Adapted the read ancestor preservation script as
+  preserve-mark-35.js, retaining only 2,679 generated pigment pixels on bare
+  rock. Every other pixel, including all old marks, remains identical to v17.
+- Read and used gathering/make_preview.py for the single new 512px JPEG.
+  Inspected the final PNG and JPEG, including both five-digit inherited hands.
+  Dimensions, hashes, scope checks and limitations are in validation-35.json.
+- Counted 34 prior numbered JSON records and added 35 without changing any
+  older record or GOAL.md. Updated wall.png to alias required wall-v18.png;
+  named output stays untracked for the separate uploader. No extra picture
+  remains and all delivered code uses Python's standard library only.
+

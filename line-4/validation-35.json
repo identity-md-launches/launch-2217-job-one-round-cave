@@ -1,0 +1,56 @@
+{
+  "number": 35,
+  "tool": "Interpolation Flint",
+  "tests": {
+    "new": 13,
+    "inherited": 117,
+    "total": 130,
+    "all_passed": true,
+    "seeded_cases": 400,
+    "standalone_copy_passed": true,
+    "readme_pipeline_passed": true
+  },
+  "wall": {
+    "path": "artifacts/line-4/wall-v18.png",
+    "width": 1254,
+    "height": 1254,
+    "format": "RGB8 PNG",
+    "bytes": 4043489,
+    "sha256": "b23bbdfda8add1380dc4173cba58303c467058ec3c9d051fe8fd199f67e77975"
+  },
+  "preview": {
+    "path": "dist/line-4/35.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "baseline JPEG",
+    "bytes": 84187,
+    "sha256": "02a0dbf19473ed0c5f580dbb2a4fd3fae8702810bf089725a5fc4bd77555e5b2"
+  },
+  "preservation": {
+    "changed_pixels": 2679,
+    "outside_box_changed": 0,
+    "box_xyxy_exclusive": [
+      63,
+      668,
+      196,
+      764
+    ],
+    "goal_byte_identical": true,
+    "older_records_and_previews_byte_identical": true,
+    "engine_snapshot_byte_identical": true
+  },
+  "scope": {
+    "all_changed_paths_allowed": true,
+    "new_nonartifact_files_below_100KB": true,
+    "wall_output_untracked": true
+  },
+  "visual_review": {
+    "unmet_requirements_observed": [],
+    "hands": "Both inherited hands have four fingers and one thumb; no new hand or stencil added.",
+    "observed": "Rock, cracks, torchlight, framing, Pepe and all ancestor marks preserved. No letters, numbers, logo, watermark, border or prohibited imagery observed.",
+    "limitations": [
+      "Small worn pigment detail is reduced in the JPEG preview.",
+      "Local inspection is not independent artistic approval."
+    ]
+  }
+}
