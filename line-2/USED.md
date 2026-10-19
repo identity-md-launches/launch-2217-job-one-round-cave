@@ -384,3 +384,29 @@
   picture or runtime dependency was kept. Full PNG and preview were inspected.
 - No coin, payment, balance, price, pool, network, secret, key, wallet, signing,
   sending, posting or deployment was needed or used.
+
+# Sources used in round 37
+
+- Preserved `GOAL.md` verbatim and all 36 older numbered records and previews.
+  Read the gathering report as data and fixed its reported Bengali/Tamil
+  normalization boundary defect in the existing Unicode Normalization folder.
+- Used Python's standard-library Unicode database to derive composition
+  continuations, retaining exact source byte evidence and explicit review
+  limits. No dependency, configuration or other line's tool was changed.
+- All 15 delivered tests and the six-finding synthetic demo passed. An
+  independent agent checked 39,704 reconstructions, 200 long-form comparisons,
+  maximum-size inputs, cap compatibility and mocked CLI confinement/read limits.
+  Scanned the actual gathering report and repaired source as inert text;
+  retained results distinguish intentional demo literals from observed attacks.
+- Used the inherited wall-v17.png, verified against record 36, as the imagegen
+  edit target. Retained only the new upper-right pigment; all other decoded
+  pixels match the inherited wall. The full prompt and transfer metadata are
+  retained as text/JSON; no extra donor picture is kept in the workspace.
+- Read and reused `gathering/make_preview.py` for standard-library PNG decoding
+  and JPEG encoding, and adapted the PNG pigment-transfer approach in
+  `line-4/preserve-mark-34.js` in disposable scratch. Those source files were
+  not modified. Full wall and preview passed two local visual reviews.
+- Added record 37 and its 512px preview. The required wall-v18.png remains
+  untracked for the daemon's separate upload; wall.png points to that version.
+- No coin, price, balance, payment or pool was needed. No key, wallet, secret,
+  environment access, signing, sending, posting or deployment was performed.

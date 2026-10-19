@@ -1,0 +1,32 @@
+{
+  "wall": {
+    "path": "artifacts/line-2/wall-v18.png",
+    "alias": "artifacts/line-2/wall.png",
+    "format": "PNG RGB8",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 4033578,
+    "sha256": "1d20dd026ce17cd0efec6262feadb14a0de183a38545802116030e74ac2db0c4"
+  },
+  "preview": {
+    "path": "dist/line-2/37.jpg",
+    "format": "baseline JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 90686,
+    "sha256": "d1b7b4788c3812a4e43c54ac74429ca8b58b9c5a7b4a9a8e9224d142a553e561",
+    "quality": 40
+  },
+  "ancestor": "artifacts/line-2/wall-v17.png",
+  "ancestor_sha256": "d05994bd7a4fa6e4070931f15441e6d1c890c3feba3dbaf578054a0c5bc15ec6",
+  "changed_pixels": 3323,
+  "changed_bounds_half_open": [
+    724,
+    282,
+    859,
+    348
+  ],
+  "outside_changed_bounds_identical": true,
+  "review": "Full PNG and 512px JPEG inspected. Warm rough cave rock, cracks, roots, light and square framing remain. Pepe retains wide mouth and heavy-lidded eyes; each of the two inherited hands has four fingers and one thumb. No hands were added. The new mark uses ochre stones, a chalk thread and charcoal edges, without text, numbers, captions, logos, watermarks, frames or forbidden symbols. Local visual review is not independent artistic certification.",
+  "unmet_visual_requirements": []
+}

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "round": 37,
+  "goal_and_older_records_unchanged": true,
+  "new_numbered_records": 1,
+  "all_changes_in_allowed_paths": true,
+  "new_source_and_preview_files_below_100000_bytes": true,
+  "required_wall_exists_and_untracked": true,
+  "record_image_hash_matches_wall": true,
+  "wall_alias_resolves_to_required_output": true,
+  "git_diff_check": "passed",
+  "changed_paths": [
+    "artifacts/line-2/wall.png",
+    "line-2/README.md",
+    "line-2/USED.md",
+    "line-2/tools/unicode-normalization/README.md",
+    "line-2/tools/unicode-normalization/test_unicode_normalization.py",
+    "line-2/tools/unicode-normalization/unicode_normalization.py",
+    "dist/line-2/37.jpg",
+    "dist/line-2/37.json",
+    "line-2/ROUND-37.md",
+    "line-2/mark-37-process.json",
+    "line-2/mark-37-prompt.txt",
+    "line-2/round-37-baseline.json",
+    "line-2/round-37-demo.json",
+    "line-2/round-37-independent-review.json",
+    "line-2/round-37-media.json",
+    "line-2/round-37-real-review.json",
+    "line-2/round-37-validation.json",
+    "artifacts/line-2/wall-v18.png"
+  ],
+  "note": "Scratch is excluded by the assignment. Named wall is deliberately untracked for separate daemon upload. Dist JPEG is the explicitly required preview."
+}

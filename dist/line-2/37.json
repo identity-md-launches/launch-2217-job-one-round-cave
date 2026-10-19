@@ -1,0 +1,30 @@
+{
+  "name": "The Unbroken Sinew",
+  "image": "https://api.imd.fun/artifacts/1d20dd026ce17cd0efec6262feadb14a0de183a38545802116030e74ac2db0c4",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 37
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Unicode Normalization"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A chalk sinew joins unlike ochre stones across an overlooked boundary."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Expose deceptive Unicode in text and identifiers with precise, reviewable evidence"
+    }
+  ]
+}

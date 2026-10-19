@@ -1,0 +1,117 @@
+{
+  "kind": "actual workspace files read as inert UTF-8",
+  "limits": "Source findings are intentional synthetic-demo literals, not observed attacks. A zero-finding report does not establish safety.",
+  "reports": [
+    {
+      "path": "gathering/REPORT.md",
+      "report": {
+        "analysis_complete": true,
+        "coverage": "UTF-8 text sequences whose NFC or NFKC form differs from the original.",
+        "detail_cap": 100,
+        "details": [],
+        "finding_count": 0,
+        "limitations": [
+          "Normalization differences can be intentional and are not proof of deception.",
+          "This is lexical review; it does not render text or compare fonts.",
+          "Boundaries are conservative for NFC and NFKC; cited spans can include unchanged neighboring scalars.",
+          "This is not a whole-label collision test; findings are normalization-sensitive sequences.",
+          "Source ranges are zero-based UTF-8 byte offsets and output is escaped ASCII JSON."
+        ],
+        "omitted_details": 0,
+        "retained_details": 0,
+        "schema_version": 1,
+        "source_bytes": 11910,
+        "source_kind": "selected-workspace-file",
+        "source_sha256": "a7504ab2ba8443322686bdf8251eb31ba6f0c275ddd4eea6e0f41cfb2e372954",
+        "tool": "unicode-normalization/3",
+        "unicode_version": "16.0.0"
+      }
+    },
+    {
+      "path": "line-2/tools/unicode-normalization/unicode_normalization.py",
+      "report": {
+        "analysis_complete": true,
+        "coverage": "UTF-8 text sequences whose NFC or NFKC form differs from the original.",
+        "detail_cap": 100,
+        "details": [
+          {
+            "character_index": 268,
+            "nfc": "\\uff21",
+            "nfc_changed": false,
+            "nfkc": "A",
+            "nfkc_changed": true,
+            "original": "\\uff21",
+            "original_scalars": [
+              {
+                "category": "Lu",
+                "codepoint": "U+FF21",
+                "name": "FULLWIDTH LATIN CAPITAL LETTER A"
+              }
+            ],
+            "source_byte_range": [
+              268,
+              271
+            ],
+            "source_span_sha256": "3075754175ec49df8c22100b30492f82cc292199f9d349cf43b1cb4c48a16f88"
+          },
+          {
+            "character_index": 281,
+            "nfc": "K",
+            "nfc_changed": true,
+            "nfkc": "K",
+            "nfkc_changed": true,
+            "original": "\\u212a",
+            "original_scalars": [
+              {
+                "category": "Lu",
+                "codepoint": "U+212A",
+                "name": "KELVIN SIGN"
+              }
+            ],
+            "source_byte_range": [
+              283,
+              286
+            ],
+            "source_span_sha256": "2bc4fb873d7946d68d07d81372a77658c633312fb8cbf171a9779c1132fcd04c"
+          },
+          {
+            "character_index": 295,
+            "nfc": "\\u2460",
+            "nfc_changed": false,
+            "nfkc": "1",
+            "nfkc_changed": true,
+            "original": "\\u2460",
+            "original_scalars": [
+              {
+                "category": "No",
+                "codepoint": "U+2460",
+                "name": "CIRCLED DIGIT ONE"
+              }
+            ],
+            "source_byte_range": [
+              299,
+              302
+            ],
+            "source_span_sha256": "9e96ca1ce18ffb97f67c1230d8282320058da75aa86fc44fb435d25c512a5423"
+          }
+        ],
+        "finding_count": 3,
+        "limitations": [
+          "Normalization differences can be intentional and are not proof of deception.",
+          "This is lexical review; it does not render text or compare fonts.",
+          "Boundaries are conservative for NFC and NFKC; cited spans can include unchanged neighboring scalars.",
+          "This is not a whole-label collision test; findings are normalization-sensitive sequences.",
+          "Source ranges are zero-based UTF-8 byte offsets and output is escaped ASCII JSON."
+        ],
+        "omitted_details": 0,
+        "retained_details": 3,
+        "schema_version": 1,
+        "source_bytes": 7443,
+        "source_kind": "selected-workspace-file",
+        "source_sha256": "42b0c043d4d7f292d6a25eff666d05e8441e2ba63ea5e1f789329fba3a9107bc",
+        "tool": "unicode-normalization/3",
+        "unicode_version": "16.0.0"
+      }
+    }
+  ]
+}

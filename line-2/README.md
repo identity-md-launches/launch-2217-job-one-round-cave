@@ -1,9 +1,9 @@
 # Line 2: Unicode Lantern
 
 Latest work: [Unicode Normalization](tools/unicode-normalization/README.md)
-now detects adjacent Hangul Jamo composition, and
-[Percent Unicode](tools/percent-unicode/README.md) safely skips malformed signed
-escapes. See [ROUND-36.md](ROUND-36.md) for the mark and checks.
+now detects composition across Unicode class-zero boundaries, including the
+Bengali and Tamil cases reported by the gathering and chained Kannada signs.
+See [ROUND-37.md](ROUND-37.md) for the mark and checks.
 
 The first working piece exposes hidden text controls and look-alike identifiers
 without executing or changing the inspected text. Start with the command in

@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "engine_sha256": "42b0c043d4d7f292d6a25eff666d05e8441e2ba63ea5e1f789329fba3a9107bc",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/unicode-normalization",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 0.841,
+      "output": "test_cap_counts_all_and_bounds_details (test_unicode_normalization.UnicodeNormalizationTests.test_cap_counts_all_and_bounds_details) ... ok\ntest_combining_run_is_one_finding_with_exact_bytes (test_unicode_normalization.UnicodeNormalizationTests.test_combining_run_is_one_finding_with_exact_bytes) ... ok\ntest_compatibility_jamo (test_unicode_normalization.UnicodeNormalizationTests.test_compatibility_jamo) ... ok\ntest_conservative_group_can_include_unchanged_neighbor (test_unicode_normalization.UnicodeNormalizationTests.test_conservative_group_can_include_unchanged_neighbor) ... ok\ntest_hangul_jamo_compose_across_class_zero_boundary (test_unicode_normalization.UnicodeNormalizationTests.test_hangul_jamo_compose_across_class_zero_boundary) ... ok\ntest_input_and_detail_limits (test_unicode_normalization.UnicodeNormalizationTests.test_input_and_detail_limits) ... ok\ntest_intervening_nonstarter_blocks_class_zero_composition (test_unicode_normalization.UnicodeNormalizationTests.test_intervening_nonstarter_blocks_class_zero_composition) ... ok\ntest_kirat_rai_non_mark_trailer_when_available (test_unicode_normalization.UnicodeNormalizationTests.test_kirat_rai_non_mark_trailer_when_available) ... ok\ntest_leading_nonstarters_reorder (test_unicode_normalization.UnicodeNormalizationTests.test_leading_nonstarters_reorder) ... ok\ntest_long_combining_run (test_unicode_normalization.UnicodeNormalizationTests.test_long_combining_run) ... ok\ntest_long_disordered_run_matches_standard_normalization (test_unicode_normalization.UnicodeNormalizationTests.test_long_disordered_run_matches_standard_normalization) ... ok\ntest_mixed_sequences_reconstruct_both_forms (test_unicode_normalization.UnicodeNormalizationTests.test_mixed_sequences_reconstruct_both_forms) ... ok\ntest_reported_bengali_and_tamil_regressions (test_unicode_normalization.UnicodeNormalizationTests.test_reported_bengali_and_tamil_regressions) ... ok\ntest_runtime_canonical_class_zero_decompositions (test_unicode_normalization.UnicodeNormalizationTests.test_runtime_canonical_class_zero_decompositions) ... ok\ntest_three_part_kannada_composition (test_unicode_normalization.UnicodeNormalizationTests.test_three_part_kannada_composition) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.748s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/unicode-normalization/unicode_normalization.py",
+        "--demo"
+      ],
+      "returncode": 0,
+      "seconds": 0.194,
+      "finding_count": 6,
+      "source_bytes": 84,
+      "source_sha256": "a3bfa18325c176da61399d829f0a1b339dea3ceb05f432cb018876fa8f9864d1"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/unicode-normalization/unicode_normalization.py",
+        "--file",
+        "gathering/REPORT.md"
+      ],
+      "returncode": 0,
+      "seconds": 0.196,
+      "finding_count": 0,
+      "source_bytes": 11910,
+      "source_sha256": "a7504ab2ba8443322686bdf8251eb31ba6f0c275ddd4eea6e0f41cfb2e372954"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/unicode-normalization/unicode_normalization.py",
+        "--file",
+        "line-2/tools/unicode-normalization/unicode_normalization.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.195,
+      "finding_count": 3,
+      "source_bytes": 7443,
+      "source_sha256": "42b0c043d4d7f292d6a25eff666d05e8441e2ba63ea5e1f789329fba3a9107bc"
+    }
+  ]
+}

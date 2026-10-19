@@ -1,0 +1,32 @@
+{
+  "method": "Select only newly generated red/yellow ochre, chalk thread and charcoal outline in bare upper-right rock. Retain every other ancestor pixel.",
+  "image_tool": "built-in image_gen",
+  "prompt": "line-2/mark-37-prompt.txt",
+  "ancestor": "artifacts/line-2/wall-v17.png",
+  "ancestor_sha256": "d05994bd7a4fa6e4070931f15441e6d1c890c3feba3dbaf578054a0c5bc15ec6",
+  "generated_donor_sha256": "bfb95f5b659b45d023485b4f7d25ed8290eed03e4e936216ea5bc4b4bef80a13",
+  "donor_dimensions": [
+    1254,
+    1254
+  ],
+  "destination_box_half_open": [
+    720,
+    279,
+    860,
+    348
+  ],
+  "changed_pixels": 3323,
+  "changed_bounds_half_open": [
+    724,
+    282,
+    859,
+    348
+  ],
+  "pigment_pixels": {
+    "red": 1287,
+    "yellow": 1594,
+    "chalk": 214,
+    "outline": 228
+  },
+  "preservation": "All decoded pixels outside the selected new pigment match record 36."
+}

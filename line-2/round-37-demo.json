@@ -1,0 +1,163 @@
+{
+  "analysis_complete": true,
+  "coverage": "UTF-8 text sequences whose NFC or NFKC form differs from the original.",
+  "detail_cap": 100,
+  "details": [
+    {
+      "character_index": 6,
+      "nfc": "\\uff21",
+      "nfc_changed": false,
+      "nfkc": "A",
+      "nfkc_changed": true,
+      "original": "\\uff21",
+      "original_scalars": [
+        {
+          "category": "Lu",
+          "codepoint": "U+FF21",
+          "name": "FULLWIDTH LATIN CAPITAL LETTER A"
+        }
+      ],
+      "source_byte_range": [
+        6,
+        9
+      ],
+      "source_span_sha256": "3075754175ec49df8c22100b30492f82cc292199f9d349cf43b1cb4c48a16f88"
+    },
+    {
+      "character_index": 18,
+      "nfc": "K",
+      "nfc_changed": true,
+      "nfkc": "K",
+      "nfkc_changed": true,
+      "original": "\\u212a",
+      "original_scalars": [
+        {
+          "category": "Lu",
+          "codepoint": "U+212A",
+          "name": "KELVIN SIGN"
+        }
+      ],
+      "source_byte_range": [
+        20,
+        23
+      ],
+      "source_span_sha256": "2bc4fb873d7946d68d07d81372a77658c633312fb8cbf171a9779c1132fcd04c"
+    },
+    {
+      "character_index": 31,
+      "nfc": "\\u2460",
+      "nfc_changed": false,
+      "nfkc": "1",
+      "nfkc_changed": true,
+      "original": "\\u2460",
+      "original_scalars": [
+        {
+          "category": "No",
+          "codepoint": "U+2460",
+          "name": "CIRCLED DIGIT ONE"
+        }
+      ],
+      "source_byte_range": [
+        35,
+        38
+      ],
+      "source_span_sha256": "9e96ca1ce18ffb97f67c1230d8282320058da75aa86fc44fb435d25c512a5423"
+    },
+    {
+      "character_index": 41,
+      "nfc": "\\u09cb",
+      "nfc_changed": true,
+      "nfkc": "\\u09cb",
+      "nfkc_changed": true,
+      "original": "\\u09c7\\u09be",
+      "original_scalars": [
+        {
+          "category": "Mc",
+          "codepoint": "U+09C7",
+          "name": "BENGALI VOWEL SIGN E"
+        },
+        {
+          "category": "Mc",
+          "codepoint": "U+09BE",
+          "name": "BENGALI VOWEL SIGN AA"
+        }
+      ],
+      "source_byte_range": [
+        47,
+        53
+      ],
+      "source_span_sha256": "b632b9ed4084cc195b0b710890f15fb4687c8dccc8c4701a25425d4ba580b338"
+    },
+    {
+      "character_index": 50,
+      "nfc": "\\u0bca",
+      "nfc_changed": true,
+      "nfkc": "\\u0bca",
+      "nfkc_changed": true,
+      "original": "\\u0bc6\\u0bbe",
+      "original_scalars": [
+        {
+          "category": "Mc",
+          "codepoint": "U+0BC6",
+          "name": "TAMIL VOWEL SIGN E"
+        },
+        {
+          "category": "Mc",
+          "codepoint": "U+0BBE",
+          "name": "TAMIL VOWEL SIGN AA"
+        }
+      ],
+      "source_byte_range": [
+        60,
+        66
+      ],
+      "source_span_sha256": "1f131b6f9080b60a8a00a4811d85506be324ee04cee77f8ee875bc3d89c5551a"
+    },
+    {
+      "character_index": 61,
+      "nfc": "\\u0ccb",
+      "nfc_changed": true,
+      "nfkc": "\\u0ccb",
+      "nfkc_changed": true,
+      "original": "\\u0cc6\\u0cc2\\u0cd5",
+      "original_scalars": [
+        {
+          "category": "Mn",
+          "codepoint": "U+0CC6",
+          "name": "KANNADA VOWEL SIGN E"
+        },
+        {
+          "category": "Mc",
+          "codepoint": "U+0CC2",
+          "name": "KANNADA VOWEL SIGN UU"
+        },
+        {
+          "category": "Mc",
+          "codepoint": "U+0CD5",
+          "name": "KANNADA LENGTH MARK"
+        }
+      ],
+      "source_byte_range": [
+        75,
+        84
+      ],
+      "source_span_sha256": "4501d94a60a21b2899103d5a88976a3523ab958c8411f05af260f93fbb055d7d"
+    }
+  ],
+  "finding_count": 6,
+  "limitations": [
+    "Normalization differences can be intentional and are not proof of deception.",
+    "This is lexical review; it does not render text or compare fonts.",
+    "Boundaries are conservative for NFC and NFKC; cited spans can include unchanged neighboring scalars.",
+    "This is not a whole-label collision test; findings are normalization-sensitive sequences.",
+    "Source ranges are zero-based UTF-8 byte offsets and output is escaped ASCII JSON."
+  ],
+  "omitted_details": 0,
+  "retained_details": 6,
+  "schema_version": 1,
+  "source_bytes": 84,
+  "source_kind": "synthetic-demo",
+  "source_sha256": "a3bfa18325c176da61399d829f0a1b339dea3ceb05f432cb018876fa8f9864d1",
+  "tool": "unicode-normalization/3",
+  "unicode_version": "16.0.0"
+}

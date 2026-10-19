@@ -1,0 +1,74 @@
+{
+  "checks": {
+    "compatibility": {
+      "command": "python3 -B test/scratch/normalization-review/compatibility.py",
+      "result": {
+        "checks": [
+          "caps 0/1/19/1000 preserve complete counts across 1200 findings",
+          "invalid detail caps rejected",
+          "all 2049 original_scalars and old evidence fields retained for long spans",
+          "invalid UTF8 and oversized API inputs rejected",
+          "CLI reads exactly MAX_BYTES+1 before oversized rejection (mocked stream)",
+          "CLI rejects resolved outside path before stat/open (mocked path)"
+        ],
+        "status": "passed"
+      },
+      "script_sha256": "9c7001064e0f352fda3050e18de43c32dec6d7e51f1472b9355c7b4cb919b5bd"
+    },
+    "probe": {
+      "command": "python3 -B test/scratch/normalization-review/probe.py",
+      "result": {
+        "decomposition_mappings": 17085,
+        "seconds": 2.155,
+        "source_cases": 39704,
+        "status": "passed",
+        "unicode": "16.0.0"
+      },
+      "script_sha256": "8d4a8452e0f0f45fbbbe121c00585e3844b82edc283c25cfcdd33b7df02ec081"
+    },
+    "stress": {
+      "command": "python3 -B test/scratch/normalization-review/stress.py",
+      "result": {
+        "equivalence_seconds": 0.321,
+        "long_equivalence_cases": 200,
+        "status": "passed",
+        "stresses": [
+          {
+            "bytes": 2097152,
+            "findings": 1,
+            "name": "maximum_unsorted_combining",
+            "retained": 0,
+            "seconds": 1.236
+          },
+          {
+            "bytes": 2097152,
+            "findings": 0,
+            "name": "maximum_ascii",
+            "retained": 0,
+            "seconds": 1.346
+          },
+          {
+            "bytes": 2097150,
+            "findings": 0,
+            "name": "long_class_zero_trailers",
+            "retained": 0,
+            "seconds": 0.836
+          }
+        ]
+      },
+      "script_sha256": "1ce83abb05a1a584115c53bc2628a484a46435f1b702f4c7d47fdc13bab30412"
+    }
+  },
+  "engine_path": "line-2/tools/unicode-normalization/unicode_normalization.py",
+  "engine_sha256": "42b0c043d4d7f292d6a25eff666d05e8441e2ba63ea5e1f789329fba3a9107bc",
+  "python_version": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "qualifications": [
+    "Local deterministic checks are observations, not independent certification.",
+    "The detail cap counts sequences, not scalars or output bytes; long retained sequences still include all original_scalars for API compatibility.",
+    "Stress probes use max_details=0 so they measure scanning and normalization, not rendering a large scalar-evidence report.",
+    "Outside-workspace rejection and exact file read limit were tested with mocked paths/streams, without reading outside files."
+  ],
+  "status": "passed",
+  "unicode_version": "16.0.0",
+  "scratch_note": "Independent probe scripts were disposable scratch and are not delivered; the tool folder contains the maintained regression suite."
+}
