@@ -1,0 +1,11 @@
+{
+  "snapshots": [
+    {
+      "source": "line-1/tools/paired-bounds/paired_bounds.py",
+      "copy": "bounds_engine.py",
+      "sha256": "79ca2085c96c180f6277ad1e7c73f77d5a8cb891beae2d145c0a2a96827f4b91",
+      "changed": false
+    }
+  ],
+  "demo": "Synthetic observations and missing cells; no measured systems or external data."
+}

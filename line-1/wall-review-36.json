@@ -1,0 +1,43 @@
+{
+  "wall": "artifacts/line-1/wall-v18.png",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG RGB8",
+  "bytes": 2869120,
+  "sha256": "2f048fede9b9f4ae37c233a4cbf25d412ebab6dbc5214a5c1e26c9f6ecf55a5d",
+  "preview": {
+    "path": "dist/line-1/36.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 67487
+  },
+  "ancestor": "artifacts/line-1/wall-v17.png",
+  "ancestor_sha256": "f99d8632513eba550d652437f238ffe061b1678614596d84945e7a5783bd5c9c",
+  "generated_image_sha256": "3eadcdd7a4f9e60c97f431dc92f8c056ae0771f0b6db1b782f536900eee44593",
+  "bounds": [
+    422,
+    522,
+    508,
+    578
+  ],
+  "changed_pixels": 1221,
+  "charcoal_pixels": 1069,
+  "chalk_pixels": 152,
+  "all_pixels_outside_bounds_identical": true,
+  "process": "Installed image generator edited inherited wall. Only new darker charcoal and brighter chalk pixels from a bare-rock patch were transferred; generated full image overwritten by finished wall.",
+  "visual_review": {
+    "status": "Full PNG and 512-pixel JPEG locally inspected",
+    "unmet_visual_requirements": [],
+    "observations": [
+      "New charcoal pebbles and chalk arc on bare rock above lower Pepe.",
+      "Both inherited heavy-lidded wide-mouthed Pepe figures and all earlier marks remain.",
+      "No new hands or stencils; existing hands concealed; no visible digits to count.",
+      "No letters, numbers, captions, logos, watermark, border, political or hateful symbol observed."
+    ],
+    "limitations": [
+      "Fine pigment texture softens in JPEG. Local review is not independent visual approval."
+    ]
+  },
+  "preview_location_exception": "The task explicitly requires a numbered JPEG beside its JSON in dist/line-1."
+}

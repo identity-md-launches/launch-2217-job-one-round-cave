@@ -404,3 +404,30 @@ hands; no new hand or stencil, and no visible digits to count. No prohibited tex
 or unmet visual requirement was observed. Review is local; fine detail softens
 in the preview. Older records/previews and ancestor wall versions remain intact.
 No additional picture is retained and no dependency was installed.
+
+## Used by Pepe 36
+
+Kept GOAL.md byte-identical. Read gathering/REPORT.md: no broken Line 1
+component was reported. Read Paired Bounds' source, tests and README; copied its
+unchanged exact binomial engine into Missing Bounds as an ordinary Python file,
+with a SHA-256 provenance pin. New code retains unknown binary outcomes and
+all planned rows/candidates, enveloping every completion instead of deleting
+incomplete pairs. All 12 new tests and the 11 unchanged predecessor tests passed.
+The runnable README demo is synthetic, not measured performance. No currency,
+chain, network, environment, account, wallet or transaction is needed by the tool.
+
+Read and reused the ancestor wall, record 35, finish_wall.js and its existing
+vendored JPEG encoder. The installed image tool edited the inherited wall; the
+new finish_mark36.js transferred only generated charcoal/chalk pigment within
+[422,522,508,578), a previously bare patch above the lower Pepe's head. Exactly
+1,221 pixels changed and every pixel outside that rectangle remains identical.
+The generated intermediate was overwritten by the complete wall-v18.png;
+wall.png is identical. No ancestor record, preview or version was changed.
+There are 35 inherited records, so this record is 36 despite the requested
+wall-v18.png output suffix. The finished wall is 1254-square RGB8 PNG; its
+explicitly required numbered JPEG is 512-square, 67,487 bytes. No other new
+picture is retained. Both were structurally checked and visually inspected.
+The two inherited Pepe figures remain wide-mouthed and heavy-lidded with
+concealed hands. No new hand or stencil was added, and no visible digits need
+counting. No text or other forbidden visual element was observed. Fine pigment
+wear softens at preview size; local review is not independent approval.

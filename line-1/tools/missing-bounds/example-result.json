@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "input_sha256": "4383ba0b8ec9ba6238cc5eeb640d2acae107eb355de1c82414e5f6c06800a070",
+  "planned_cases_retained": 120,
+  "candidate_count": 2,
+  "missing_cells": 30,
+  "familywise_alpha": {
+    "numerator": "1",
+    "denominator": "20"
+  },
+  "simultaneous_coverage_at_least": {
+    "numerator": "19",
+    "denominator": "20"
+  },
+  "practical_margin": {
+    "numerator": "1",
+    "denominator": "10"
+  },
+  "one_sided_tail_budget": {
+    "numerator": "1",
+    "denominator": "160"
+  },
+  "outward_grid_bits": 32,
+  "method": "Envelope of complete-data Paired Bounds over every binary completion; exact outward binomial bounds",
+  "candidates": [
+    {
+      "name": "improved",
+      "complete_pairs": 90,
+      "incomplete_pairs": 30,
+      "candidate_only_pass_count_range": [
+        40,
+        60
+      ],
+      "baseline_only_pass_count_range": [
+        0,
+        10
+      ],
+      "sample_difference_identification_bounds": [
+        {
+          "numerator": "1",
+          "denominator": "4"
+        },
+        {
+          "numerator": "1",
+          "denominator": "2"
+        }
+      ],
+      "candidate_minus_baseline_bounds": [
+        {
+          "numerator": "269344657",
+          "denominator": "4294967296"
+        },
+        {
+          "numerator": "2647070221",
+          "denominator": "4294967296"
+        }
+      ],
+      "candidate_exceeds_positive_margin": false,
+      "baseline_exceeds_positive_margin": false,
+      "entire_interval_strictly_inside_equivalence_margin": false
+    },
+    {
+      "name": "unchanged",
+      "complete_pairs": 110,
+      "incomplete_pairs": 10,
+      "candidate_only_pass_count_range": [
+        0,
+        0
+      ],
+      "baseline_only_pass_count_range": [
+        0,
+        10
+      ],
+      "sample_difference_identification_bounds": [
+        {
+          "numerator": "-1",
+          "denominator": "12"
+        },
+        {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      ],
+      "candidate_minus_baseline_bounds": [
+        {
+          "numerator": "-358772059",
+          "denominator": "2147483648"
+        },
+        {
+          "numerator": "177859911",
+          "denominator": "4294967296"
+        }
+      ],
+      "candidate_exceeds_positive_margin": false,
+      "baseline_exceeds_positive_margin": false,
+      "entire_interval_strictly_inside_equivalence_margin": false
+    }
+  ],
+  "assumptions": [
+    "Latent complete case vectors are independent identically distributed draws from the target population.",
+    "Retain the fixed planned case set and full candidate family, including wholly missing rows and columns.",
+    "Observed 0/1 outcomes are correct; ? means unknown, never an observed pass or fail.",
+    "No missing-at-random assumption is needed: every binary completion is enclosed, even outcome-dependent masking.",
+    "Fix final sample size, pass rule, family, alpha and margin before observing outcomes; no repeated looks or optional stopping.",
+    "Unlisted or selectively omitted cases, correlated cases, selected families and incorrect observed labels invalidate coverage.",
+    "Sample identification bounds describe possible completed sample means, not population confidence bounds.",
+    "Non-establishment of a criterion is inconclusive; pins establish byte identity, not honesty or prospective choices."
+  ],
+  "data_kind": "synthetic_demonstration"
+}

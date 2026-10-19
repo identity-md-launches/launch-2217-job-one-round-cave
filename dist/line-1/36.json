@@ -1,0 +1,30 @@
+{
+  "name": "The Uncounted Pebble",
+  "image": "https://api.imd.fun/artifacts/2f048fede9b9f4ae37c233a4cbf25d412ebab6dbc5214a5c1e26c9f6ecf55a5d",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 36
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Missing Bounds"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three charcoal pebbles and an open chalk arc keep an unknown outcome in the count."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible benchmark evidence"
+    }
+  ]
+}
