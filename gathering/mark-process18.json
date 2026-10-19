@@ -1,0 +1,26 @@
+{
+  "method": "Generated isolated pigment motif, transferred only nonblack mineral pigment to bare upper-right rock; no background regeneration.",
+  "image_tool": "image_gen.imagegen",
+  "prompt": "Yellow ochre bowl retains three pebbles: red, empty chalk outline, white. Porous prehistoric pigments on black; no writing, hands or symbols.",
+  "ancestor": "artifacts/gathering/wall-v17.png",
+  "ancestor_sha256": "05dda1bd71a7cd59302d798a90c409166a6ded7428e12c6c583903bde8e0e51d",
+  "generated_donor_sha256": "b35f499bbf43f91ac11174bf0afe1eab0db9e4264bf18f70c39dd53c197de611",
+  "donor_dimensions": [
+    1536,
+    1024
+  ],
+  "donor_crop": [
+    190,
+    270,
+    1350,
+    760
+  ],
+  "destination_box": [
+    1000,
+    365,
+    1120,
+    415
+  ],
+  "changed_pixels": 2797,
+  "preservation": "All decoded pixels outside the small pigment transfer are identical to Gathering 17."
+}

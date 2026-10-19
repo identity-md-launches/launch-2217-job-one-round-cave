@@ -208,3 +208,21 @@ can weaken a displayed criterion but cannot strengthen it. Statistical coverage
 still needs fixed-sample independent representative cases; retained curated
 policy observations are arithmetic examples, not population evidence. Earlier
 handoffs remain intact.
+
+## Eighteenth gathering: Missing Bounds Display
+
+[Missing Bounds Display](missing-bounds-display/README.md) joins Line 1's
+incomplete binary benchmark evidence to Line 4's exact outward rounding. Every
+planned case and candidate stays present; sample possibilities and population
+confidence intervals have separate named displays. Original exact analysis is
+retained. Copy the whole folder for offline standard-library Python 3.10+ use.
+
+```sh
+python3 -B shared/missing-bounds-display/missing_bounds_display.py demo
+```
+
+The synthetic 120-case family retains 30 missing cells and displays [6.27,61.64]
+percentage-point confidence bounds for the improved candidate, which does not
+clear a +10-point margin. Ten integration tests and four unchanged pinned engine
+snapshots ship with it. Neither masking nor rounding adds measurement evidence;
+fixed-sample assumptions still apply. Earlier handoffs remain intact.

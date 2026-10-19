@@ -1,6 +1,6 @@
 {
   "name": "One",
-  "image": "https://api.imd.fun/artifacts/05dda1bd71a7cd59302d798a90c409166a6ded7428e12c6c583903bde8e0e51d",
+  "image": "https://api.imd.fun/artifacts/bbc56705091bf0503f9fc8b211f8f601c4fcdf40976d36ddf4fe5d89cc686880",
   "attributes": [
     {
       "trait_type": "Cave",
@@ -16,7 +16,7 @@
     },
     {
       "trait_type": "Meaning",
-      "value": "Two chalk arcs shelter the shared evidence without squeezing away its uncertainty."
+      "value": "A bowl keeps an empty pebble beside the known ones, so missing evidence is never discarded."
     }
   ]
 }

@@ -8,6 +8,9 @@ import sys
 
 ROOT = Path(__file__).resolve().parent.parent
 CASES = [
+ ("missing outcomes outward display", ["shared/missing-bounds-display/missing_bounds_display.py", "demo"], 0),
+ ("missing paired outcomes", ["line-1/tools/missing-bounds/missing_bounds.py", "--demo"], 0),
+ ("exact interpolation", ["line-4/tools/interpolation-flint/interpolation_flint.py", "demo"], 0),
  ("outward confidence bounds reading view", ["shared/bounds-display/bounds_display.py", "demo"], 0),
  ("simultaneous binary effect bounds", ["line-1/tools/paired-bounds/paired_bounds.py", "--demo"], 0),
  ("retained policy binary effect bounds", ["line-1/tools/paired-bounds/paired_bounds.py", "--input", "line-1/tools/paired-bounds/retained-policy-results.csv", "--expected-input-sha256", "c8e80ed4104f4f85c50a2df9d02c2dbb6ca47fc748ad545815adfe6475226d02"], 0),

@@ -1,0 +1,29 @@
+{
+  "method": "Local visual inspection of the full wall and 512-pixel preview plus exact pixel comparison to the previous wall.",
+  "wall_sha256": "bbc56705091bf0503f9fc8b211f8f601c4fcdf40976d36ddf4fe5d89cc686880",
+  "name": "Keep the Empty Pebble",
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "RGB8 PNG",
+  "preview_dimensions": [
+    512,
+    512
+  ],
+  "preview_format": "baseline JPEG",
+  "preservation": "Only added nonblack generated pigment within [1000,365,1120,415); all other decoded pixels exactly equal Gathering 17.",
+  "pepe": "Existing central wide mouth and heavy-lidded eyes preserved.",
+  "hands": {
+    "left_visible_digits": 5,
+    "right_visible_digits": 5,
+    "detail": "Each inherited hand has four fingers and one thumb. No hand or stencil added; their pixels are unchanged."
+  },
+  "new_mark": "Rough yellow ochre bowl with red pebble, empty chalk outline, and white pebble on bare upper-right rock.",
+  "forbidden_elements_observed": [],
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Local visual judgment, not independent approval.",
+    "Fine grain and the empty pebble outline lose detail in the 512-pixel preview."
+  ]
+}
