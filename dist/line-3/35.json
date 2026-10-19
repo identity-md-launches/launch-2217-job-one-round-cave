@@ -1,0 +1,30 @@
+{
+  "name": "Guarded Pebbles",
+  "image": "https://api.imd.fun/artifacts/a0968c9f37f7642ccfb34c4dc55f78834378b47f011901a54a1aa8f0c21e0d44",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 35
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Uncertainty Lens"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three guarded pebbles mark the intervals safe to compare in an incident timeline."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible incident timelines"
+    }
+  ]
+}

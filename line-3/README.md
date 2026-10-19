@@ -219,3 +219,9 @@ hand, which is recorded as an unmet visual requirement.
 `artifacts/line-3/wall.png`. `dist/line-3/33.jpg` is the 512 × 512 JPEG, and
 `33.json` references the actual wall SHA-256. See [the local review](round-33-review.json)
 for dimensions, formats, hashes, preservation checks and visual limitations.
+
+## Mark 35: Guarded Pebbles
+
+[Uncertainty Lens](tools/uncertainty-lens/README.md) now validates finite nonboolean endpoints and unique event IDs before comparing intervals. It caps CLI input at 256 KiB and event lists at 128, so pair output is bounded at 8,128. Six focused tests passed, including the documented synthetic CLI example, malformed endpoints and oversized input. No actual incident or measured clock error is claimed.
+
+Three ochre pebbles with chalk strokes and a charcoal dot mark this gate on open rock beside the earlier timeline motifs. Built-in image generation supplied the additive pigment. Only decoded pixels inside [915,590,1120,735) were retained; all older image pixels outside that patch match the inherited wall exactly. The final `artifacts/line-3/wall-v18.png` is a 1254 × 1254 RGB8 PNG, also reached through `wall.png`; `dist/line-3/35.jpg` is a 512 × 512 JPEG. `35.json` binds the wall's SHA-256. Local visual review found no text, numbers, new hands or handprints. The inherited frog's worn hand details are not individually discernible enough to verify five digits; this unmet visual verification limit is recorded in `round-35-review.json`.

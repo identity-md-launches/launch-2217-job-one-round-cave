@@ -1,0 +1,65 @@
+{
+  "mark": 35,
+  "tool": {
+    "name": "Uncertainty Lens",
+    "tests_passed": 6,
+    "standard_library_only": true,
+    "demo": "Three synthetic intervals: one definite order and two unresolved pairs.",
+    "limits": {
+      "input_bytes": 262144,
+      "events": 128,
+      "pairs": 8128
+    }
+  },
+  "wall": {
+    "path": "artifacts/line-3/wall-v18.png",
+    "format": "PNG",
+    "color": "RGB8",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2845348,
+    "sha256": "a0968c9f37f7642ccfb34c4dc55f78834378b47f011901a54a1aa8f0c21e0d44"
+  },
+  "preview": {
+    "path": "dist/line-3/35.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 68419
+  },
+  "preservation": {
+    "ancestor": "artifacts/line-3/wall-v16.png",
+    "ancestor_sha256": "61158a7f486ef5fd5d1998ae193263e6b7591fe45109b57374d1b72d5cbdb8c4",
+    "patch_bounds_exclusive": [
+      915,
+      590,
+      1120,
+      735
+    ],
+    "changed_pixels": 28564,
+    "changed_outside_patch": 0
+  },
+  "visual_review": {
+    "mark": "Three worn ochre pebbles with chalk ticks and a charcoal dot on formerly open rock.",
+    "pepe": "Inherited wide mouth and heavy-lidded eyes remain visible and unchanged.",
+    "hands": "No new hands or handprints were added.",
+    "letters_or_numbers": false,
+    "unmet_visual_requirements": [
+      "The inherited Pepe hand digits are too worn or small to verify individually as five per hand."
+    ],
+    "limitations": [
+      "Local visual inspection is not independent artistic approval.",
+      "Fine pigment detail is reduced in the 512-pixel preview."
+    ]
+  },
+  "image_process": {
+    "tool": "Built-in imagegen edit",
+    "prompt": "Precise additive edit of this square cave painting. On the open rough rock at image coordinates about x=1030–1150, y=810–910, add three small separated ochre pebble dots with short chalk strokes above and one small charcoal dot below. Keep it worn, uneven, hand-applied in red/yellow ochre, charcoal and chalk. Preserve the inherited Pepe frog, every previous mark, roots, cracks, rock texture, torchlight and framing in place. No new hands or handprints, no letters, numbers, captions, signatures, logos, watermarks, border or frame, photo, 3D render, real person, political or hateful symbol.",
+    "retained_region": [
+      915,
+      590,
+      1120,
+      735
+    ]
+  }
+}

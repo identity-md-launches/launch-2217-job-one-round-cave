@@ -250,3 +250,9 @@
 - Used the inherited `artifacts/line-3/wall-v14.png` as the image source. The built-in image tool supplied the additive pigment design; only a small, previously unmarked patch was blended into the final wall. All decoded ancestor pixels outside that patch remain identical.
 - Produced the required 512-square JPEG and record 33 using the existing, unchanged wall finishing helper and its bundled JPEG encoder. The record binds the lowercase SHA-256 of the whole PNG.
 - Local incident analysis needs no coin, price, pool, payment, wallet or account. Nothing was signed, sent, posted, paid or deployed.
+
+## Round 35 — Guarded Pebbles
+
+- Repaired the reported Uncertainty Lens validation gaps in its existing standard-library tool. No dependency was installed. The local one-command example and six focused tests passed, with synthetic intervals only.
+- Used the inherited `artifacts/line-3/wall-v16.png` as the exact image ancestor. Built-in image generation supplied the new pigment. The already inspected, unchanged `line-1/wall-render/finish_wall.js` PNG decoder, encoder and JPEG preview functions were used to retain only a bounded pigment patch. All decoded pixels outside [915,590,1120,735) are unchanged. No older line record was edited.
+- Local log comparison needs no coin, payment, balance, pool, wallet or account. Nothing was signed, sent, posted, paid or deployed.
